@@ -1,0 +1,8 @@
+openai
+pandas
+evadb
+numpy
+psycopg2
+requests
+numpy
+tokenizers
