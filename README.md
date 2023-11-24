@@ -25,9 +25,9 @@ This prototype performs several tasks such as setting up a PostgreSQL database, 
     pip install -r requirements.txt
     ```
 
-3. Set up PostgreSQL and create a database named `evadb`. The script in this repository assumes using an underlying postgres SQL database. If you want to use other databases, you may need to modify the part where we connect the database with the evadb library.
+3. Configure PostgreSQL by establishing a database named 'evadb.' The script within this repository presupposes the utilization of a PostgreSQL database. To employ alternative databases, adjustments might be necessary in the section connecting the database with the 'evadb' library.
 
-4. Export the OpenAI API key as an environment variable:
+ 4. Export the OpenAI API key as an environment variable:
 
     ```bash
     export OPENAI_KEY=your_openai_api_key_here
