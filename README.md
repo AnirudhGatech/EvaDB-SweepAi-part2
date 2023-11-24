@@ -46,3 +46,28 @@ EvaDB-SweepAI-2 (part 2) performs several tasks, including setting up a PostgreS
 3. The tool will clone the specified GitHub repository, fetch code snippets, correct them using the OpenAI GPT model, and create a commit with the corrected code.
 
 
+
+#### Input:
+
+1. **GitHub Repository Information**:
+   - **Repository Owner**: Replace_with_Repository_Owner
+   - **Repository Name**: Replace_with_Repository_Name
+
+2. **Python Code Snippets from GitHub**:
+   - Python code files present in the specified repository. For instance:
+     - `file1.py`
+     - `file2.py`
+   - These files contain Python code with potential issues or problems that need correction.
+
+
+
+
+#### Output:
+
+1. **Updated Python Code Files**:
+   - `issue-1.py`, `issue-2.py`, etc. (if issues are detected and corrected).
+   - These files contain corrected code snippets based on the ChatGPT suggestions for identified issues.
+
+2. **GitHub Interaction Logs**:
+   - Logs and messages indicating successful cloning, code analysis, correction, commit creation, and push to the repository.
+
