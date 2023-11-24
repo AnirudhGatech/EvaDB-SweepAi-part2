@@ -30,6 +30,7 @@ params = {
     "port": "5432",
     "database": "evadb",
 }
+    
 evadb_cursor = evadb.connect().cursor()
 query = f"CREATE DATABASE postgres_data WITH ENGINE = 'postgres', PARAMETERS = {params};"
 evadb_cursor.query(query).df()
@@ -43,6 +44,7 @@ evadb_cursor.query("""
     }
 """).df()
 
+     
 evadb_cursor.query("""
     USE postgres_data {
         CREATE TABLE code_embeddings_table (code_snippet TEXT(100), embedding NDARRAY FLOAT32(1,1536));
@@ -117,6 +119,7 @@ def automate_github_commit(repo_owner, repo_name):
     os.system(f"git clone https://github.com/{repo_owner}/{repo_name}.git")
     os.chdir(repo_name)
 
+    
     # Modify files with corrected code snippets
     for index in range(1, 3):  # Assuming issue-1.py and issue-2.py were generated
         issue_file = f"issue-{index}.py"
@@ -147,3 +150,4 @@ repo_name = "your_repository_name"
 
 # Perform GitHub commit automation
 automate_github_commit(repo_owner, repo_name)
+
