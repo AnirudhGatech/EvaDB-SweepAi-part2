@@ -1,6 +1,6 @@
 # EvaDB-SweepAI-2
 
-
+EvaDB-SweepAI-2 (part 2) performs several tasks, including setting up a PostgreSQL database, interacting with the OpenAI API for code corrections, optimizing queries in the database, and automating GitHub commits with corrected code snippets.
 
 
 ## Setup
