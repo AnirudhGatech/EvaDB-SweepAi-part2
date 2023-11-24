@@ -1,7 +1,12 @@
 # EvaDB-SweepAI-2
 
-This prototype performs several tasks such as setting up a PostgreSQL database, interacting with the OpenAI API for code corrections, optimizing queries in the database, and automating GitHub commits with corrected code snippets.
+This prototype performs several tasks such as setting up a PostgreSQL database, interacting with the OpenAI API for code corrections, optimizing queries in the database, and automating GitHub commits with corrected code snippets. Here are the following tasks performed by this prototype:
 
+1.  Database Setup
+2.	OpenAI Integration
+3.	Code Preprocessing and Embedding Generation
+4.	Database Optimization
+5.	GitHub Commit Automation
 
 ## Setup
 
