@@ -5,6 +5,7 @@ import os
 import openai
 import tokenize
 import io
+import github
 import numpy as np
 import warnings
 from evadb.configuration.constants import EvaDB_INSTALLATION_DIR
