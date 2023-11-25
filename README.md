@@ -11,7 +11,7 @@ This prototype performs several tasks:
    - Installs necessary Python packages (`evadb` and `psycopg2`).
 
 3. **Database Table Creation:**
-   - Creates tables (`code_embeddings_table`, `response`, `issue_table`) within the PostgreSQL database (`evadb`).
+   - Creates tables within the PostgreSQL database (`evadb`).
 
 4. **OpenAI API Integration:**
    - Sets up the OpenAI API key for use in generating code embeddings.
@@ -22,7 +22,7 @@ This prototype performs several tasks:
 
 6. **Database Operations:**
    - Inserts code embeddings into the PostgreSQL database in batches.
-   - Creates indexes on the database tables (`code_embeddings_table`) to optimize queries.
+   - Creates indexes on the database tables to optimize queries.
 
 7. **GitHub Interaction and Automation:**
    - Clones a specified GitHub repository locally.
