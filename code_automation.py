@@ -16,7 +16,7 @@ import time
 # Set up PostgreSQL
 !apt install postgresql
 !service postgresql start
-!sudo -u postgres psql -c "CREATE USER yd WITH SUPERUSER PASSWORD 'gatech'"
+!sudo -u postgres psql -c "CREATE USER user1 WITH SUPERUSER PASSWORD 'password1'"
 !sudo -u postgres psql -c "CREATE DATABASE evadb"
 
 # Install required packages
@@ -26,7 +26,7 @@ import time
 # Connect to PostgreSQL
 params = {
     "user": "user1  ",
-    "password": "password",
+    "password": "password1",
     "host": "localhost",
     "port": "5432",
     "database": "evadb",
